@@ -28,7 +28,10 @@ Folder map sẽ như sau:
 ```bash
 pip install -r requirement.txt
 ```
-
+## Bước 3: CHẠY APP
+```bash
+python a_record.py
+```
 # Lưu ý:
 
 Dòng `29`, file `a_record.py`

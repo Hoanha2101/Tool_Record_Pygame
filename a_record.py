@@ -85,6 +85,7 @@ while running:
             out.write(frame)
         
         frame = cv2.resize(frame, (350, 250))
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) 
         frame = pygame.surfarray.make_surface(cv2.rotate(frame, cv2.ROTATE_90_COUNTERCLOCKWISE))
         screen.blit(frame, (10, 10))
     
