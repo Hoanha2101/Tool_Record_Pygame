@@ -51,3 +51,25 @@ collect_data/
     |....
 ```
 + `1.mp4`, `2.mp4`, `3.mp4`, ... phát trong vscode không được, mở bên ngoài thư mục xem được thì data hợp lệ.
+
+
+# Label 2 camera
+
+```
+collect_data/
+├── top/
+│   ├── left/
+│   ├── right/
+│   └── straight/
+├── bottom/
+|   ├── left/
+|   ├── right/
+|   └── straight/
+└──video.mp4
+
+
+```
+Run code
+```
+python label2Camera.py
+```
